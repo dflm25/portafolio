@@ -1,0 +1,28 @@
+@import "../../../assets/sass/variables";
+@import "~animate.css/animate.min.css";
+
+.aboutContainer {
+  padding: 100px 0 20px 0;
+  background: $white;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.cardSkillContainer {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 620px;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  .cardSkill {
+    width: auto;
+    padding: 5px 15px;
+    text-align: center;
+  }
+}

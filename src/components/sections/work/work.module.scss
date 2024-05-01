@@ -1,0 +1,73 @@
+@import "../../../assets/sass/variables";
+@import "~animate.css/animate.min.css";
+
+.workSectionContainer {
+  padding: 100px 0 100px 0;
+  opacity: 1;
+  background-color: $light;
+
+  .portafolioFlexContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+    @media (min-width: $screen-md) {
+      flex-direction: row;
+    }
+
+    .customCard {
+      width: 100%;
+      max-width: 480px;
+      box-sizing: border-box;
+      border-radius: 20px;
+      border: none;
+
+      @media (min-width: $screen-md) {
+        max-width: 300px;
+      }
+
+      .imageContainer {
+        padding-top: 50px;
+        width: 100%;
+        height: 160px;
+        background-repeat: no-repeat !important;
+        background-size: 160px !important;
+        background-position: center !important;
+      }
+
+      .cardContainer {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .iconContainer {
+          display: flex;
+          justify-content: center;
+        }
+
+        h3 {
+          font-size: 1.3rem;
+          text-align: center;
+          margin: 20px 0;
+        }
+
+        p {
+          text-align: center;
+          padding: 10px;
+        }
+
+        a {
+          margin: 0 auto;
+          background: $primary;
+          width: 60%;
+          color: #fff;
+          border: none;
+        }
+      }
+    }
+  }
+}

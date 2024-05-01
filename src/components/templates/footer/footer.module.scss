@@ -1,0 +1,15 @@
+@import "../../../assets/sass/variables";
+@import "~animate.css/animate.min.css";
+
+.footerContainer {
+  background: $secondary;
+
+  .copyright {
+    color: $light;
+
+    .btn {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}

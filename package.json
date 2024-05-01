@@ -1,0 +1,41 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "portafolio",
+  "author": "Ideas app",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.3",
+    "gatsby": "^5.13.3",
+    "gatsby-plugin-google-gtag": "^5.13.1",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-sass": "^6.13.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-plugin-sitemap": "^6.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "lottie-react": "^2.4.0",
+    "randomcolor": "^0.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.1.0",
+    "react-scrollmagic": "^2.3.0",
+    "react-terminal-ui": "^1.2.0",
+    "react-type-animation": "^3.2.0",
+    "sass": "^1.75.0",
+    "terminal.css": "^0.7.5",
+    "typewriter-effect": "^2.21.0"
+  }
+}

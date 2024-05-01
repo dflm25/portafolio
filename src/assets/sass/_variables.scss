@@ -1,0 +1,27 @@
+$white: #ffffff;
+$light: #d6e8f5;
+$accent1: #878e39;
+$accent2: #6b7040;
+$primary: #004962;
+$secondary: #036476;
+
+$theme-colors: (
+  "light": $light,
+  "dark": #260400,
+  "primary": #004962,
+  "secondary": $secondary,
+  "info": #3fbac8,
+  "accent1": $accent1,
+  "accent2": $accent2,
+  "accent3": #e27323,
+  "success": #00a958,
+  "warning": #e8cb00,
+  "danger": #f70015,
+);
+
+// Define tus propias variables para los tamaños de pantalla de Bootstrap
+$screen-xs: 0px; // Extra small devices (portrait phones, less than 576px)
+$screen-sm: 576px; // Small devices (landscape phones, 576px and up)
+$screen-md: 768px; // Medium devices (tablets, 768px and up)
+$screen-lg: 992px; // Large devices (desktops, 992px and up)
+$screen-xl: 1200px; // Extra large devices (large desktops, 1200px and up)
